@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Niconne', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons i {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.56rem;
+    line-height: 3.125rem;
+    margin: 0 5px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.social-icons i:hover {
+    background-color: #fff;
+    color: orange;
+    border: 1px solid orange;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.clear {
+    clear: both;
+}
+
+#main-header {
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/01_wedding_top_small_a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-header .header-inner,
+#informations .informations-inner {
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+#main-header .header-inner {
+    background-color: rgba(15, 100, 150, 0.7);
+    right: 60px;
+}
+
+#main-header .header-inner h1 a,
+#main-header .header-inner h2,
+#main-header .header-inner h3,
+#informations .informations-inner h2,
+#informations .informations-inner h3 {
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 1px 1px 1px #595959;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#main-header .header-inner h1 a {
+    text-decoration: none;
+    font-size: 3.75rem;
+    color: #fff;
+}
+
+#main-header .header-inner h2,
+#informations .informations-inner h2 {
+    font-size: 1.875rem;
+}
+
+#main-header .header-inner h3,
+#informations .informations-inner h3 {
+    font-size: 1.625rem;
+}
+
+#main-header .header-inner h3 span,
+#informations .informations-inner h3 span {
+    color: orange;
+    display: block;
+    font-size: 1.875rem;
+}
+
+#main-header .header-inner p,
+#informations .informations-inner p,
+#portfolio .portfolio-inner .portfolio-item .mask .border .content p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-shadow: 1px 1px 1px #595959;
+}
+
+.fa-check {
+    color: orange;
+}
+
+.orange-box {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.orange-box h2 {
+    font-size: 1.875rem;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 1px 1px 1px #595959;
+    margin: 0;
+    padding: 15px;
+}
+
+.orange-box h2 i {
+    margin: 0 10px;
+}
+
+#informations {
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/02_wedding_center_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#informations .informations-inner {
+    background-color: rgba(15, 100, 30, 0.7);
+    left: 60px;
+}
+
+#informations .informations-inner ul {
+    list-style: none;
+    text-align: left;
+    line-height: 1.875rem;
+    display: inline-block;
+    padding: 0;
+}
+
+#informations .informations-inner .btn,
+#main-header .header-inner .btn {
+    width: 150px;
+    margin-top: 15px;
+    background-color: orange;
+    padding: 20px;
+    border: 1px solid orange;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#informations .informations-inner .btn:hover,
+#main-header .header-inner .btn:hover {
+    background-color: #fff;
+    border: 1px solid orange;
+}
+
+#informations .informations-inner .btn:hover h2,
+#main-header .header-inner .btn:hover h2 {
+    color: orange;
+}
+
+#informations .informations-inner .btn h2,
+#main-header .header-inner .btn h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+#portfolio {
+    padding: 30px 60px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 20, 40, 0.8)), to(rgba(0, 20, 40, 0.8))), url(../img/03_wedding_portfolio_small.jpg);
+    background-image: linear-gradient(rgba(0, 20, 40, 0.8), rgba(0, 20, 40, 0.8)), url(../img/03_wedding_portfolio_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .portfolio-inner .portfolio-header h2 {
+    margin-top: 0;
+}
+
+#portfolio .portfolio-inner .portfolio-header h2,
+#portfolio .portfolio-inner .portfolio-footer h3,
+#portfolio .portfolio-inner .portfolio-footer h3 span a {
+    text-align: center;
+    color: orange;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.875rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-inner .portfolio-footer h3 span a:hover {
+    color: #fff;
+}
+
+#portfolio .portfolio-inner .portfolio-footer h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#portfolio .portfolio-inner .portfolio-footer h3 span {
+    display: block;
+}
+
+#portfolio .portfolio-inner .portfolio-footer {
+    margin-top: 30px;
+}
+
+#portfolio .portfolio-inner .portfolio-item {
+    height: 350px;
+    display: inline-block;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.3333%;
+}
+
+#portfolio .portfolio-inner .item1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio .portfolio-inner .item2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio .portfolio-inner .item3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+#portfolio .portfolio-inner .portfolio-item {
+    position: relative;
+}
+
+#portfolio .portfolio-inner .portfolio-item .mask {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(255, 165, 0, 0.8);
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-inner .portfolio-item:hover .mask {
+    opacity: 1;
+}
+
+#portfolio .portfolio-inner .portfolio-item .mask .border {
+    border: 1px solid #fff;
+    height: 100%;
+    position: relative;
+}
+
+#portfolio .portfolio-inner .portfolio-item .mask .border .content {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 15px;
+    text-align: center;
+}
+
+#portfolio .portfolio-inner .portfolio-item .mask .border .content p {
+    margin: 0;
+}
+
+#portfolio .portfolio-inner .portfolio-item .mask .border .content h3 {
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 1px 1px 1px #595959;
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+#footer {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 50px;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer {
+    padding: 30px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.foter-inner {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.foter-inner a {
+    text-decoration: none;
+}
+
+.foter-inner a,
+.foter-inner p {
+    margin: 0 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.foter-inner a:hover {
+    text-decoration: none;
+    color: orange;
+}
