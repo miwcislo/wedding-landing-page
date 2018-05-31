@@ -56,7 +56,7 @@ body {
 #informations .informations-inner {
     position: absolute;
     width: 25%;
-    top: 50%;
+    top: 50S%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 40px;
