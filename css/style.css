@@ -62,7 +62,33 @@ body {
     padding: 40px;
     text-align: center;
     color: #fff;
+    -webkit-animation-name: show;
+    animation-name: show;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
 }
+
+
+@-webkit-keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
 
 #main-header .header-inner {
     background-color: rgba(15, 100, 150, 0.7);

@@ -98,16 +98,25 @@
 
 @media all and (max-width: 576px) {
 
+    #main-header,
+    #informations {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
     #main-header .header-inner,
     #informations .informations-inner {
         width: 70%;
         right: 0;
         left: 0;
         margin: 0 auto;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        bottom: 25px;
-        padding: 10px;
     }
 
     h1 {
